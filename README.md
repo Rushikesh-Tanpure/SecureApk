@@ -10,16 +10,17 @@ A powerful Android application designed to detect malicious activity and ensure 
 - Alert popups for subscription updates and trial status.
 - Offline subscription management using `SharedPreferences`.
 
-## Screenshots
+
 
 ### Home Screen
-![Home Screen](images/home.png)
+<img src="images/home.png" alt="Home Screen" width="300"/>
 
 ### Subscription Prompt
-![Subscription Prompt](images/subscription.png)
+<img src="images/subscription.png" alt="Subscription Prompt" width="300"/>
 
 ### Payment Success Alert
-![Payment Success Alert](images/payment.png)
+<img src="images/payment.png" alt="Payment Success Alert" width="300"/>
+
 
 ## How It Works
 
