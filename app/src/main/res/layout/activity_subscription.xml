@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg_gradient"
+    android:padding="20dp">
+
+    <!-- Subscription Heading -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Your Plan"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="30dp" />
+
+    <!-- Monthly Subscription -->
+    <Button
+        android:id="@+id/monthlySubscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subscribe for ₹200/month"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"
+        android:padding="15dp"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- 6-Month Subscription -->
+    <Button
+        android:id="@+id/sixMonthSubscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subscribe for ₹1000/6 months"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"
+        android:padding="15dp"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- Yearly Subscription -->
+    <Button
+        android:id="@+id/yearlySubscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subscribe for ₹1500/year"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"
+        android:padding="15dp"
+        android:layout_marginBottom="15dp"/>
+</LinearLayout>

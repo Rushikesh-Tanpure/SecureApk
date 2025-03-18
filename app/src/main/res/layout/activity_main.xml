@@ -1,0 +1,84 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    android:padding="50dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:text="Malicious Activity Detector"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:padding="2dp"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check App"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/cardview_dark_background"
+                android:textStyle="bold"
+                android:layout_marginEnd="40dp"/>
+
+            <Button
+                android:id="@+id/appCheckButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Click Here" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check URL"
+                android:textSize="20dp"
+                android:textColor="@color/cardview_dark_background"
+                android:textStyle="bold"
+                android:layout_marginEnd="40dp"/>
+
+            <Button
+                android:id="@+id/websiteCheckButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click HERE"/>
+        </LinearLayout>
+
+        <!-- New Show Button for Trial/Subscription -->
+        <Button
+            android:id="@+id/showButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="Show"
+            android:visibility="invisible"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+</RelativeLayout>

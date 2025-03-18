@@ -1,0 +1,24 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/image"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/appNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/cardview_dark_background"
+        android:layout_marginTop="90dp"
+        android:textColor="@color/cardview_dark_background"
+        android:hint="Enter App Name" />
+
+    <Button
+        android:id="@+id/checkAppButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check App Name"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
