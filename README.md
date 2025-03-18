@@ -13,13 +13,13 @@ A powerful Android application designed to detect malicious activity and ensure 
 ## Screenshots
 
 ### Home Screen
-![Home Screen](images/home_screen.png)
+![Home Screen](images/home.png)
 
 ### Subscription Prompt
-![Subscription Prompt](images/subscription_prompt.png)
+![Subscription Prompt](images/subscription.png)
 
 ### Payment Success Alert
-![Payment Success Alert](images/payment_success.png)
+![Payment Success Alert](images/payment.png)
 
 ## How It Works
 
